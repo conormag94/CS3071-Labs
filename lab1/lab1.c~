@@ -29,7 +29,6 @@ void printArray(int array[], int size) {
 int main() {
 	
 	int numbers[10] = {5, 65, 40, 39, 30, 8, 17, 21, 3, 10};
-	printArray(numbers, 10);
 	sort(numbers, 10);
 	printArray(numbers, 10);
 	return 0;
